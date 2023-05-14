@@ -71,7 +71,7 @@ def main():
     st.header('Welcome to Image Caption Generator!')
     st.code('This is a simple Image Caption Generator built using HuggingFace Transformers and Streamlit built by Sneha Saravanan')
     st.write(
-        'Visit the [Github]() repo for detailed exaplaination and to get started right away')
+        'Visit the [Github](https://github.com/snehasaran09/Image_Caption_Generator) repo for detailed exaplaination and to get started right away')
     tab1, tab2, tab3 = st.tabs(
         ["Sample Images", "Image from computer", "Image from URL"])
     with tab1:
