@@ -21,7 +21,7 @@ model.to(device)
 max_length = 25
 num_beams = 5
 num_return_sequences = 1
-temperature = 1.75
+temperature = 1.00
 gen_kwargs = {"max_length": max_length, "num_beams": num_beams, "num_return_sequences": num_return_sequences, "temperature": temperature, "do_sample": True}
 
 def show_sample_images():
